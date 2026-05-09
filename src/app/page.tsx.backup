@@ -1,0 +1,284 @@
+"use client"
+export default function Home() {
+  return (
+    <main>
+      {/* HERO */}
+      <section className="section-hero" id="hero">
+        <div className="container grid-2">
+          <div className="hero-copy">
+            <p className="eyebrow">AI Development · Full Stack · Automation</p>
+            <h1>Building intelligent systems that transform businesses</h1>
+            <p className="lede">
+              AI Engineer & Full Stack Developer specializing in autonomous agents, intelligent automation, and scalable web applications. I turn complex business challenges into elegant AI-powered solutions that deliver measurable ROI.
+            </p>
+            <div className="cta-row">
+              <a className="btn btn-primary" href="#projects">View Work</a>
+              <a className="btn btn-ghost" href="#contact">Hire Me</a>
+              <a className="btn btn-secondary" href="/assests/Rafay Resume.pdf" download>Download CV</a>
+            </div>
+            <div className="socials" aria-label="Social links">
+              <a aria-label="GitHub" href="https://github.com/Rafay100" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.7c0 5.4 3.4 9.9 8.2 11.5.6.1.8-.3.8-.6v-2c-3.3.8-4-1.6-4-1.6-.5-1.2-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.8-1.7 2.9-2.4-2.7-.3-5.6-1.4-5.6-6 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0C17.3 2.9 18.3 3.2 18.3 3.2c.6 1.6.2 2.7.1 3.1.8.9 1.2 2 1.2 3.3 0 4.6-2.9 5.7-5.6 6 .9.8 1.6 2.2 1.6 4.4v3.3c0 .3.2.7.8.6A12.2 12.2 0 0 0 24 12.7 12 12 0 0 0 12 .5Z"/></svg>
+              </a>
+              <a aria-label="LinkedIn" href="https://www.linkedin.com/in/syed-abdul-rafay-80b185282/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4zM8.5 8.5h3.8v2h.1c.5-1 1.9-2.1 3.9-2.1 4.2 0 5 2.7 5 6.2V23h-4v-6.5c0-1.5 0-3.4-2.1-3.4-2.2 0-2.6 1.7-2.6 3.3V23h-4z"/></svg>
+              </a>
+              <a aria-label="Email" href="mailto:srafay2021@gmail.com">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.5l-10 6.25L2 6.5V6Zm0 2.75v8.25a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8.75l-9.43 5.9a2 2 0 0 1-2.14 0L2 8.75Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div className="hero-media">
+            <div className="avatar">
+              <img src="/assests/MY PIC .jpg" alt="Syed Abdul Rafay" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section className="section" id="about">
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow">About</p>
+            <h2>Expertise that delivers results</h2>
+            <p className="muted">AI Engineer and Full Stack Developer building production-ready intelligent systems that solve real business problems.</p>
+          </div>
+
+          <div className="about-grid">
+            <div className="about-card">
+              <h3>Core Competencies</h3>
+              <p>I specialize in developing AI-powered automation systems, intelligent agents, and full-stack web applications. My expertise spans from natural language processing and machine learning to modern web frameworks and cloud deployment. I focus on creating solutions that are not just technically impressive, but deliver tangible business value—reducing costs, increasing efficiency, and driving growth.</p>
+              <ul className="tags">
+                <li>Python</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li><li>FastAPI</li><li>LangChain</li><li>OpenAI API</li><li>Machine Learning</li><li>NLP</li><li>RAG Systems</li><li>Vector Databases</li><li>PostgreSQL</li><li>MongoDB</li><li>Docker</li><li>AWS</li><li>Vercel</li><li>Git</li><li>REST APIs</li>
+              </ul>
+            </div>
+
+            <div className="stats">
+              <div className="stat">
+                <span className="stat-num">30+</span>
+                <span className="stat-label">Projects Delivered</span>
+              </div>
+              <div className="stat">
+                <span className="stat-num">5+</span>
+                <span className="stat-label">AI Solutions</span>
+              </div>
+              <div className="stat">
+                <span className="stat-num">100%</span>
+                <span className="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EXPERIENCE */}
+      <section className="section" id="experience">
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow">Experience</p>
+            <h2>Professional Journey</h2>
+            <p className="muted">Building AI solutions and delivering value to clients worldwide</p>
+          </div>
+
+          <ol className="timeline">
+            <li className="timeline-item">
+              <div className="time">2025 - Present</div>
+              <div className="content">
+                <h3>AI Solutions Developer & Consultant</h3>
+                <p>Developing custom AI automation systems, intelligent agents, and full-stack applications for businesses. Specializing in LangChain, OpenAI API integration, RAG systems, and conversational AI. Successfully delivered 5+ production-ready AI solutions that reduced operational costs by an average of 60%.</p>
+              </div>
+            </li>
+            <li className="timeline-item">
+              <div className="time">2025</div>
+              <div className="content">
+                <h3>Front-End Developer Intern</h3>
+                <p>Built responsive web applications using React, Next.js, and modern JavaScript frameworks. Collaborated on client projects, implemented UI/UX designs, and optimized application performance. Gained hands-on experience with Git workflows, API integration, and agile development practices.</p>
+              </div>
+            </li>
+            <li className="timeline-item">
+              <div className="time">2024 - 2025</div>
+              <div className="content">
+                <h3>Freelance Web Developer</h3>
+                <p>Delivered custom websites and web applications for small businesses and startups. Managed full project lifecycle from requirements gathering to deployment. Built responsive, SEO-optimized sites using HTML, CSS, JavaScript, and modern frameworks.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section className=”section” id=”projects”>
+        <div className=”container”>
+          <div className=”section-header”>
+            <p className=”eyebrow”>Work</p>
+            <h2>Selected projects</h2>
+            <p className=”muted”>AI-powered solutions and full-stack applications delivering real business value</p>
+          </div>
+
+          <div className=”projects-grid”>
+            <article className=”project-card”>
+              <a className=”media” href=”https://github.com/Rafay100/Ai_Agentic_Automation” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case01.PNG” alt=”AI Agentic Automation” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI Agentic Automation System</h3>
+                <p>Enterprise-grade AI automation platform leveraging autonomous agents to streamline business workflows. Built with Python and advanced LLM integration, this system intelligently handles complex tasks, decision-making, and process orchestration. Reduces manual workload by 70% while maintaining accuracy and compliance.</p>
+                <ul className=”tags”><li>Python</li><li>AI Agents</li><li>LangChain</li><li>Automation</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/Ai_Agentic_Automation” className=”text-link”>View Code →</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://ai-excel-agent.vercel.app” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case study02.PNG” alt=”AI Excel Agent” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI Excel Data Agent</h3>
+                <p>Intelligent data analysis tool that transforms how businesses interact with spreadsheets. Upload Excel files and ask questions in natural language—the AI agent analyzes data, generates insights, creates visualizations, and provides actionable recommendations. Perfect for financial analysts, data scientists, and business intelligence teams.</p>
+                <ul className=”tags”><li>Python</li><li>OpenAI</li><li>Pandas</li><li>Data Analysis</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/Ai_Excel_Agent” className=”text-link”>View Code →</a>
+                  <a href=”https://ai-excel-agent.vercel.app” className=”text-link”>Live Demo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://ai-calling-agent-psi.vercel.app” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case03.png” alt=”AI Calling Agent” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI Voice Calling Agent</h3>
+                <p>Revolutionary conversational AI system that handles phone calls autonomously. Features natural voice synthesis, real-time speech recognition, and context-aware responses. Ideal for customer service, appointment scheduling, and sales outreach. Handles 100+ concurrent calls with human-like interaction quality.</p>
+                <ul className=”tags”><li>Python</li><li>Speech AI</li><li>NLP</li><li>Twilio</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/Ai_Calling_Agent” className=”text-link”>View Code →</a>
+                  <a href=”https://ai-calling-agent-psi.vercel.app” className=”text-link”>Live Demo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://github.com/Rafay100/Ai_Customer_Support_Agent” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case01.PNG” alt=”AI Customer Support” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI Customer Support Agent</h3>
+                <p>24/7 intelligent customer support system powered by advanced NLP and machine learning. Handles inquiries, troubleshoots issues, and escalates complex cases to human agents. Trained on company-specific knowledge bases for accurate, contextual responses. Reduces support costs by 60% while improving customer satisfaction scores.</p>
+                <ul className=”tags”><li>Python</li><li>RAG</li><li>Vector DB</li><li>FastAPI</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/Ai_Customer_Support_Agent” className=”text-link”>View Code →</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://github.com/Rafay100/My_Ai_Employee” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case study02.PNG” alt=”AI Employee” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI Virtual Employee</h3>
+                <p>Comprehensive AI workforce solution that acts as a digital team member. Handles email management, calendar scheduling, document processing, research tasks, and report generation. Integrates with Slack, Gmail, and project management tools. Increases team productivity by automating repetitive knowledge work.</p>
+                <ul className=”tags”><li>Python</li><li>AI Automation</li><li>API Integration</li><li>Task Management</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/My_Ai_Employee” className=”text-link”>View Code →</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://ad-agency-two.vercel.app” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case03.png” alt=”Ad Agency Platform” />
+              </a>
+              <div className=”project-content”>
+                <h3>Digital Marketing Agency Platform</h3>
+                <p>Full-featured agency management system built with modern JavaScript frameworks. Streamlines client onboarding, campaign management, analytics tracking, and billing. Features real-time collaboration, automated reporting, and ROI dashboards. Designed for scalability and white-label deployment.</p>
+                <ul className=”tags”><li>JavaScript</li><li>React</li><li>Node.js</li><li>Analytics</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/ad_agency” className=”text-link”>View Code →</a>
+                  <a href=”https://ad-agency-two.vercel.app” className=”text-link”>Live Demo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://my-to-do-app-puce.vercel.app” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case01.PNG” alt=”Smart Todo App” />
+              </a>
+              <div className=”project-content”>
+                <h3>AI-Enhanced Task Manager</h3>
+                <p>Intelligent productivity application that goes beyond basic to-do lists. Features AI-powered task prioritization, smart scheduling suggestions, and natural language input. Analyzes your work patterns to optimize task allocation and deadline management. Syncs across devices with real-time updates.</p>
+                <ul className=”tags”><li>Python</li><li>Machine Learning</li><li>React</li><li>PostgreSQL</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/My_ToDo_App” className=”text-link”>View Code →</a>
+                  <a href=”https://my-to-do-app-puce.vercel.app” className=”text-link”>Live Demo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://my-weather-app-six-eta.vercel.app/” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case study02.PNG” alt=”Weather App” />
+              </a>
+              <div className=”project-content”>
+                <h3>Real-Time Weather Dashboard</h3>
+                <p>Responsive weather application with advanced forecasting capabilities. Integrates multiple weather APIs for accurate predictions, severe weather alerts, and historical data analysis. Features interactive maps, customizable widgets, and location-based notifications. Built with React for optimal performance.</p>
+                <ul className=”tags”><li>React</li><li>JavaScript</li><li>Weather API</li><li>Geolocation</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/My_Weather_App.git” className=”text-link”>View Code →</a>
+                  <a href=”https://my-weather-app-six-eta.vercel.app/” className=”text-link”>Live Demo ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article className=”project-card”>
+              <a className=”media” href=”https://rafay100.github.io/BM-Banas_Marine/” target=”_blank” rel=”noopener”>
+                <img src=”/assests/Case03.png” alt=”Banas Marine” />
+              </a>
+              <div className=”project-content”>
+                <h3>Banas Marine Logistics Platform</h3>
+                <p>Professional corporate website for a global logistics and marine services company. Showcases container handling, vessel repair, freight forwarding, and supply chain solutions. Fully responsive design with SEO optimization, contact forms, and service catalog. Demonstrates end-to-end web development from design to deployment.</p>
+                <ul className=”tags”><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li></ul>
+                <div className=”links”>
+                  <a href=”https://github.com/Rafay100/BM-Banas_Marine.git” className=”text-link”>View Code →</a>
+                  <a href=”https://rafay100.github.io/BM-Banas_Marine/” className=”text-link”>Live Site ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="section" id="contact">
+        <div className="container">
+          <div className="contact-card">
+            <div>
+              <p className="eyebrow">Contact</p>
+              <h2>Ready to transform your business with AI?</h2>
+              <p className="muted">I’m available for freelance projects, consulting, and full-time opportunities. Whether you need an AI automation system, intelligent chatbot, data analysis tool, or custom web application—let’s discuss how I can help you achieve your goals.</p>
+              <div style={{marginTop: ‘1.5rem’}}>
+                <p><strong>What I can help you with:</strong></p>
+                <ul style={{marginTop: ‘0.5rem’, paddingLeft: ‘1.5rem’}}>
+                  <li>AI Agent Development & Automation</li>
+                  <li>Custom ChatGPT & LLM Integration</li>
+                  <li>Data Analysis & Business Intelligence Tools</li>
+                  <li>Full-Stack Web Applications</li>
+                  <li>API Development & Integration</li>
+                  <li>Technical Consulting & Strategy</li>
+                </ul>
+              </div>
+            </div>
+            <div className="contact-actions">
+              <a className="btn btn-primary" href="mailto:srafay2021@gmail.com">Email Me</a>
+              <a className="btn btn-outline" href="https://www.linkedin.com/in/syed-abdul-rafay-80b185282/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
